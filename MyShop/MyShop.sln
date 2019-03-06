@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShop.Services", "MyShop.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShop.DataAccess.SQL", "MyShop.DataAccess.SQL\MyShop.DataAccess.SQL.csproj", "{35F84E46-E763-4D2B-B262-33EF48146164}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShop.DataAccess.InMemory", "MyShop.DataAccess.InMemiry\MyShop.DataAccess.InMemory.csproj", "{FFD79FF5-605A-4EC6-9641-7F21ACE11098}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShop.DataAccess.InMemiry", "MyShop.DataAccess.InMemiry\MyShop.DataAccess.InMemiry.csproj", "{FFD79FF5-605A-4EC6-9641-7F21ACE11098}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShop.WebUI", "MySHop.WebUI\MyShop.WebUI.csproj", "{85BD2C04-3063-4CD2-90CF-2811FB682AF1}"
 EndProject

@@ -22,7 +22,7 @@ namespace MyShop.DataAccess.InMemiry
             products = cache["products"] as List<Product>;
 
             //if the cache is empty, create a ne list of products
-            if(products == null)
+            if (products == null)
             {
                 products = new List<Product>();
             }
@@ -46,7 +46,7 @@ namespace MyShop.DataAccess.InMemiry
             //find the product we want to update in the current list of products
             Product ProductToUpdate = products.Find(p => p.ProductID == product.ProductID);
             //if we have found the required product, replace it in the product list
-            if(ProductToUpdate!= null)
+            if (ProductToUpdate != null)
             {
                 ProductToUpdate = product;
             }
@@ -68,7 +68,7 @@ namespace MyShop.DataAccess.InMemiry
             else
             {
                 //product not in current list
-                throw new Exception("Prodcut not found");
+                throw new Exception("Product not found");
             }
         }
 
@@ -90,7 +90,9 @@ namespace MyShop.DataAccess.InMemiry
         }
 
         public IQueryable<Product> Collection()
-            {
+        {
             return products.AsQueryable();
+        }
     }
+}
 
